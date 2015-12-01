@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.artest.MainActivity" >
+
+    <FrameLayout
+        android:id="@+id/ARFrameLayout"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageViewDraw"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_alignParentRight="false"
+        android:layout_alignRight="@+id/ARFrameLayout"
+        android:layout_alignTop="@+id/ARFrameLayout" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher"
+        android:visibility="gone" />
+
+</RelativeLayout>
